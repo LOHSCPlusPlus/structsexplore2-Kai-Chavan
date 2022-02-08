@@ -79,7 +79,10 @@ int main() {
     Line b(Point(7,-9), Point(8,-15));
     cout << "Line b";
     PrintLine(b);
-    FindLowestPoint(b);
+    Point low2  = FindLowestPoint(b);
+    cout << "Line b's lowest point: ";
+    PrintPoint(low2);
+    cout << endl;
    
 
     return 0;
